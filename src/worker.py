@@ -8,7 +8,7 @@ from fetch.posts import get_blog_posts, MarkExclusion, NoEntries
 from downloader import PostsDownloader
 from batch_file import BatchFile
 
-BATCH_DOWNLOADER_COUNT = 1
+BATCH_DOWNLOADER_COUNT = 500
 
 MASTER_SERVER = "http://blogspot-comments-master.us.to"
 UPLOAD_SERVER = "http://blogstore.bot.nu"
